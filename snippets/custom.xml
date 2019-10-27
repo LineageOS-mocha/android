@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-   <project path="android" name="arttttt/android" />
-   <project path="packages/apps/Launcher3" name="omnirom/android_packages_apps_Launcher3" revision="android-7.1" />
-   <project path="vendor/cm" name="arttttt/android_vendor_cm" revision="cm-14.1" />
+   <remove-project name="platform/packages/apps/RetailDemo"/>
+   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+   <remove-project name="LineageOS/android_vendor_cm" />
+
+   <project path="android" name="LineageOS-mocha/android" />
+   <project path="packages/apps/Launcher3" name="LineageOS-mocha/android_packages_apps_Launcher3" />
+   <project path="vendor/cm" name="LineageOS-mocha/android_vendor_cm" />
 
 </manifest>
