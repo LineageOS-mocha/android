@@ -2,13 +2,12 @@
 <manifest>
 
   <remote  name="omni"
-           fetch="https://github.com/" />
+           fetch="https://github.com/omnirom" />
 
-  <default revision="refs/heads/cm-14.1"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+  <remote  name="arttttt"
+           fetch="https://github.com/arttttt" />
 
    <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="omni" revision="android-7.1" />
+   <project path="vendor/cm" name="LineageOS/android_vendor_cm" remote="arttttt" revision="cm-14.1" />
 
 </manifest>
