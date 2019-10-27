@@ -13,9 +13,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r39" />
 
-  <remote  name="arttttt"
-           fetch="https://github.com/arttttt" />
-
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="omni"
-           fetch="https://github.com/omnirom" />
-
-   <project path="android" name="android" remote="arttttt" />
-   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="omni" revision="android-7.1" />
-   <project path="vendor/cm" name="LineageOS/android_vendor_cm" remote="arttttt" revision="cm-14.1" />
+   <project path="android" name="arttttt/android" />
+   <project path="packages/apps/Launcher3" name="omnirom/android_packages_apps_Launcher3" revision="android-7.1" />
+   <project path="vendor/cm" name="arttttt/android_vendor_cm" revision="cm-14.1" />
 
 </manifest>
