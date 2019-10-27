@@ -3,6 +3,7 @@
 
    <remove-project name="platform/packages/apps/RetailDemo"/>
    <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+   <remove-project name="LineageOS/android_packages_apps_Updater" />
    <remove-project name="LineageOS/android_vendor_cm" />
 
    <project path="android" name="LineageOS-mocha/android" />
