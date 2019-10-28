@@ -10,7 +10,7 @@
    <project path="packages/apps/Launcher3" name="LineageOS-mocha/android_packages_apps_Launcher3" />
    <project path="vendor/cm" name="LineageOS-mocha/android_vendor_cm" />
 
-   <project path="android" name="LineageOS-mocha/android_hardware_nvidia_libstagefrighthw" />
-   <project path="android" name="LineageOS-mocha/android_hardware_nvidia_thermal" />
+   <project path="hardware/nvidia/libstagefrighthw" name="LineageOS-mocha/android_hardware_nvidia_libstagefrighthw" />
+   <project path="hardware/nvidia/thermal" name="LineageOS-mocha/android_hardware_nvidia_thermal" />
 
 </manifest>
