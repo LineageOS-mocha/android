@@ -24,7 +24,7 @@
    <project path="packages/apps/ContactsCommon" name="LineageOS-mocha/android_packages_apps_ContactsCommon" />
    <project path="packages/apps/Dialer" name="LineageOS-mocha/android_packages_apps_Dialer" />
    <project path="packages/apps/ExactCalculator" name="LineageOS-mocha/android_packages_apps_ExactCalculator" />
-   <project path="packages/apps/ExactCalculator" name="LineageOS-mocha/android_packages_apps_PackageInstaller" />
+   <project path="packages/apps/PackageInstaller" name="LineageOS-mocha/android_packages_apps_PackageInstaller" />
    <project path="packages/apps/PhoneCommon" name="LineageOS-mocha/android_packages_apps_PhoneCommon" />
    <project path="system/sepolicy" name="LineageOS-mocha/android_system_sepolicy" />
    <project path="frameworks/base" name="LineageOS-mocha/android_frameworks_base" />
